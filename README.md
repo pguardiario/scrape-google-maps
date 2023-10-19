@@ -5,7 +5,7 @@ Scrape google maps data from any html
 npm i --save @pguardiario/scrape-google-maps
 
 ## use
-```
+```javascript
 const puppeteer = require('puppeteer')
 const parse = require('scrape-google-maps')
 
