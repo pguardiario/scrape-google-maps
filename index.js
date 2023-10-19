@@ -71,8 +71,14 @@ function parse(html) {
     }
     return acc
   }, {})
-  // fs.writeFileSync('maps.json', JSON.stringify(data, null, 2))
-  return data
+
+  let places = Object.keys(data).reduce((acc, key) => {
+    return {
+      cid: key,
+      ...data[key]
+    }
+  }, [])
+  return { places }
 }
 
 // console.log(parse(fs.readFileSync('test.html')))
