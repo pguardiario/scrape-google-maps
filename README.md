@@ -2,7 +2,7 @@
 Scrape google maps data from any html
 
 ## install
-npm i --save @pguardiario/scrape-google-maps
+npm i --save scrape-google-maps
 
 ## use
 ```javascript
