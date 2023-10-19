@@ -8,6 +8,7 @@ npm i --save @pguardiario/scrape-google-maps
 const puppeteer = require('puppeteer')
 const parse = require('scrape-google-maps')
 
+```
 async function run(){
   let browser = await puppeteer.launch()
   let page = await browser.newPage()
@@ -18,3 +19,4 @@ async function run(){
 }
 
 run()
+```
