@@ -20,3 +20,5 @@ async function run(){
 
 run()
 ```
+
+If you use this project please consider [supporting my work](https://www.buymeacoffee.com/pguardiario)
