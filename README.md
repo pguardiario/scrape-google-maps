@@ -5,10 +5,10 @@ Scrape google maps data from any html
 npm i --save @pguardiario/scrape-google-maps
 
 ## use
+```
 const puppeteer = require('puppeteer')
 const parse = require('scrape-google-maps')
 
-```
 async function run(){
   let browser = await puppeteer.launch()
   let page = await browser.newPage()
