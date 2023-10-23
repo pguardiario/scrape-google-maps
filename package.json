@@ -1,6 +1,6 @@
 {
   "name": "scrape-google-maps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scrape any html with google maps data on it.",
   "main": "index.js",
   "scripts": {

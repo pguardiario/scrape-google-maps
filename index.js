@@ -72,7 +72,7 @@ function parse(html) {
     return acc
   }, {})
 
-  let places = Object.keys(data).reduce((acc, key) => {
+  let places = Object.keys(data).map((key) => {
     return {
       cid: key,
       ...data[key]
